@@ -29,7 +29,7 @@ Template.TEMPLATE_NAME.events({
 		e.preventDefault();
 
 		var me = this,
-			el = $('.modal');
+			el = $('#delete_record.modal');
 
 		el.openModal({
 			dismissible: true, // Modal can be dismissed by clicking outside of the modal
