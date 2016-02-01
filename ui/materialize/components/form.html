@@ -1,6 +1,11 @@
 <template name="TEMPLATE_NAME">
 	<div id="COMPONENT_ID" class="container COMPONENT_CLASS">
-		<div id="form-back-button" class="waves-effect waves-light btn"><i class="material-icons left">reply</i>Back</div>
+
+		<div id="form-back-button" class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+		    <a id="dataview-insert-button"  class="btn-floating btn-large red">
+		      <i class="large material-icons">reply</i>
+		    </a>
+		</div>
 
 		<h4><span id="component-title-icon" class="COMPONENT_TITLE_ICON_CLASS"></span>COMPONENT_TITLE</h4>
 
@@ -117,9 +122,18 @@
 
 <div id="form-input-submit">
 	<p class="input-field col s12 submit-div">
-		<button id="form-submit-button" class="btn waves-effect waves-light" type="submit"><i class="material-icons right">check</i>SUBMIT_BUTTON_TITLE</button>
-		<a href="#" id="form-cancel-button" class="btn">CANCEL_BUTTON_TITLE</a>
-		<a href="#" id="form-close-button" class="btn green">CLOSE_BUTTON_TITLE</a>
+
+		<div class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+		    <button type="submit" id="form-submit-button"  class="btn-floating btn-large ">
+		      <i class="large material-icons">check</i>
+		    </button>
+		</div>
+		<div class="fixed-action-btn" style="bottom: 50px; right: 90px;">
+		    <a id="form-cancel-button" class="btn-floating red">
+		      <i class="large material-icons">reply</i>
+		    </a>
+		</div>
+
 	</p>
 </div>
 
