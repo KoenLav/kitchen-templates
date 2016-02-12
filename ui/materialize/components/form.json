@@ -1,6 +1,6 @@
 {
 	"packages": {
-		"meteor": ["mrt:moment", "rajit:bootstrap3-datepicker", "reactive-dict"],
+		"meteor": ["momentjs:moment", "rajit:bootstrap3-datepicker", "reactive-dict"],
 		"mrt"   : []
 	},
 	"copy_files": [
